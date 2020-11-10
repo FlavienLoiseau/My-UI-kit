@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Authentification form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <form class="form-signin p-5">
+
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-0">S'inscrire</h1>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Prénom</span>
+          </div>
+          <input type="text" class="form-control" aria-label="first_name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Nom</span>
+          </div>
+          <input type="text" class="form-control" aria-label="last_name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Description</span>
+          </div>
+          <textarea class="form-control" id="description" rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Email</span>
+          </div>
+          <input type="text" class="form-control" aria-label="email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Mot de passe</span>
+          </div>
+          <input type="text" class="form-control" aria-label="password">
+          <div class="invalid-feedback">6 caractères minimum</div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Confirmer mot de passe</span>
+          </div>
+          <input type="text" class="form-control" aria-label="password">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Image de profil</span>
+          </div>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="avatar">
+            <label class="custom-file-label" for="avatar">Choisir un fichier</label>
+          </div>
+          <div class="input-group-append">
+            <span class="input-group-text">Upload</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <button type="button" class="btn btn-block btn-primary">S'inscrire</button>
+      </div>
+
+      <div class="text-center mb-3">
+        <p class="text-muted">Déjà inscrit ? <a href="#">Se connecter</a></p>
+      </div>
+
+    </form>
+  </body>
+</html>
